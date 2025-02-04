@@ -1,27 +1,40 @@
 import './style/Style.css'
 
+
 function App() {
   
-  return (
-   <div className='app-container'>
-    <div className='app-div1'>
-      <div className='app-div1-1'></div>
-      <div className='app-div1-2'></div>
-      <div className='app-div1-3'></div>
-    </div>
+   return (
 
-    <div className='app-div2'>
-      <div className='app-div2-1'></div>
-      <div className='app-div2-2'></div>
-    </div>
+    // <div className="container">
+    //     <div className="div-flex-1"></div>
+    //     <div className="div-flex-2"></div>
+    //     <div className="div-flex-3"></div>
+    //     <div className="div-flex-4"></div>
+    //     <div className="div-flex-5"></div>
+    // </div>  
+    <div className='app-container'>
+     <div className='app-div1'>
+       <div className='app-div1-1'></div>
+       <div className='app-div1-2'></div>
+       <div className='app-div1-3'></div>
+     </div>
 
-    <div className='app-div3'>
-      <div className='app-div3-1'></div>
-      <div className='app-div3-2'></div>
-    </div>
+     <div className='app-div2'>
+       <div className='app-div2-1'></div>
+       <div className='app-div2-2'>
+         <div className='app-div-2-2-1'></div>
+        
+         <div className='app-div-2-2-2'></div>
+       </div>
+     </div>
+
+     <div className='app-div3'>
+       <div className='app-div3-1'></div>
+       <div className='app-div3-2'></div>
+     </div>
     
-   </div>
-  )
-}
+    </div>
+   )
+ }
 
-export default App
+ export default App

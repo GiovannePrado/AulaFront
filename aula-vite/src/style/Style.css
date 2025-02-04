@@ -61,6 +61,7 @@
     background-color: skyblue;
     flex: 1;
     border: solid black 5px;
+    
 }
 
 .app-div2-2{
@@ -68,6 +69,8 @@
     background-color: royalblue;
     flex: 1;
     border: solid black 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 .app-div3-1{
@@ -82,4 +85,88 @@
     background-color: grey;
     flex: 1;
     border: solid black 5px;
+}
+
+.app-div-2-2-1{
+    width: 100%;
+    background-color: orange;
+    flex: 1;
+    border: solid red 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-div-2-2-2{
+    width: 100%;
+    background-color: royalblue;
+    flex: 1;
+    border: solid red 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-div-2-a{
+    height: 100%;
+    background-color: orange;
+    flex: 2;
+    border: solid red 5px;
+    display: flex;
+    flex-direction: right;
+}
+
+.app-div-2-b{
+    height: 100%;
+    background-color: royalblue;
+    flex: 1;
+    border: solid red 5px;
+    display: flex;
+    flex-direction: left;
+}
+
+.container{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(0, 71, 138);
+    display: flex;
+    flex-direction: column;
+}
+
+.div-flex-1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 71, 138);
+    display: flex;
+    flex-direction: row;
+}
+
+.div-flex-2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(138, 44, 0);
+    display: flex;
+    flex-direction: center;
+}
+
+.div-flex-3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(138, 113, 0);
+    display: flex;
+    flex-direction: center;
+}
+
+.div-flex-4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(138, 44, 0);
+    display: flex;
+    flex-direction: center;
+}
+
+.div-flex-5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(138, 44, 0);
+    display: flex;
+    flex-direction: center;
 }
