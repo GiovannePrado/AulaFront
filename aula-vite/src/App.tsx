@@ -1,39 +1,20 @@
 import './style/Style.css'
-
+import Flex from './Flex'
+import Cabecalho from './Cabecalho'
+import Rodape from './Rodape'
 
 function App() {
   
    return (
 
-    // <div className="container">
-    //     <div className="div-flex-1"></div>
-    //     <div className="div-flex-2"></div>
-    //     <div className="div-flex-3"></div>
-    //     <div className="div-flex-4"></div>
-    //     <div className="div-flex-5"></div>
-    // </div>  
-    <div className='app-container'>
-     <div className='app-div1'>
-       <div className='app-div1-1'></div>
-       <div className='app-div1-2'></div>
-       <div className='app-div1-3'></div>
-     </div>
+    <div>
+      <Cabecalho />
+      <Flex />
+      <Rodape />
 
-     <div className='app-div2'>
-       <div className='app-div2-1'></div>
-       <div className='app-div2-2'>
-         <div className='app-div-2-2-1'></div>
-        
-         <div className='app-div-2-2-2'></div>
-       </div>
-     </div>
+    </div>  
 
-     <div className='app-div3'>
-       <div className='app-div3-1'></div>
-       <div className='app-div3-2'></div>
-     </div>
-    
-    </div>
+
    )
  }
 
