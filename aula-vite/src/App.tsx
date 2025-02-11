@@ -1,20 +1,14 @@
 import './style/Style.css'
-import Flex from './Flex'
-import Cabecalho from './Cabecalho'
-import Rodape from './Rodape'
+import {Routes, Route} from 'react-router-dom'
+import Home from './pages/Home';
+import Sobre from './pages/Sobre'
 
 function App() {
-  
    return (
-
-    <div>
-      <Cabecalho />
-      <Flex />
-      <Rodape />
-
-    </div>  
-
-
+    <Routes>
+      <Route path='/' element={<Home/>} />
+      <Route path='/sobre' element={<Sobre/>} />
+    </Routes>
    )
  }
 
