@@ -1,5 +1,5 @@
-import Cabecalho from "../Cabecalho"
-import Rodape from "../Rodape"
+import Cabecalho from "../componentes/Cabecalho"
+import Rodape from "../componentes/Rodape"
 import '../style/Style-flex.css'
 function Home () {
 
@@ -27,7 +27,10 @@ function Home () {
 
     return(
         <div>
-            <Cabecalho />
+            <Cabecalho titulo="Titulo Informado"
+                        pagina="Home Informada"
+                         />
+
             <h1>Pagina Home</h1>
             <br />
             Variavel 1 é: {numero1}
