@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function PaginaAleatoria(){
 
-    // const [numero, setnumero] = useState(0);
+
     
     const [numeroUm, setnumeroUm] = useState (0)
     function ChangeNumeroUm(Event : React.ChangeEvent<HTMLInputElement>) {
@@ -34,7 +34,7 @@ function PaginaAleatoria(){
     }
 
     return(
-        <div>
+        <div className='calculadora'>
             <h1>Calculadora</h1>
             <br />
             <input type="Numero" onChange={ChangeNumeroUm} />

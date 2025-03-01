@@ -6,6 +6,7 @@ import Giovanne from './pages/Giovanne'
 import PaginaAleatoria from './pages/PaginaAleatoria'
 import NotFound from './pages/NotFound';
 import Cadastro from './pages/Cadastro';
+import Listas from './pages/Listas';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Route path='/Giovanne' element={<Giovanne/>} />
       <Route path='PaginaAleatoria' element={<PaginaAleatoria/>} />
       <Route path='/Cadastro' element={<Cadastro/>} />
+      <Route path='/Listas' element={<Listas/>} />
     </Routes>
    )
  }

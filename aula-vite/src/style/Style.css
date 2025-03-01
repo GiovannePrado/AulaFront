@@ -203,3 +203,16 @@
     color: white;
     text-align: center;
 }
+
+/* Calculadora */
+
+.calculadora{
+    height: 250px;
+    width: 500px;
+    font-size: 25px;
+    color: rgb(121, 34, 34);
+    text-align: center;
+    background-color: skyblue;
+    border: solid black 5px;
+
+}
