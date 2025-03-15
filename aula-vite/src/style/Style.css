@@ -216,3 +216,19 @@
     border: solid black 5px;
 
 }
+
+/* Pai */
+
+.pai-container{
+    width: 600px;
+    height: 150px;
+    background-color: rosybrown;
+}
+
+/* Filho */
+
+.filho-container{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(116, 42, 42);
+}
