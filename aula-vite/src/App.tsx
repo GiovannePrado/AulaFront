@@ -8,6 +8,9 @@ import NotFound from './pages/NotFound';
 import Cadastro from './pages/Cadastro';
 import Listas from './pages/Listas';
 import Comunicacao from './pages/Comunicacao';
+import Requisicoes from './pages/Requisicoes';
+import RequisicoesTypes from './pages/RequisicoesTypes';
+import RequisicoesTypesAsync from './pages/RequisicoesTypesAsync';
 
 
 function App() {
@@ -21,6 +24,9 @@ function App() {
       <Route path='/Cadastro' element={<Cadastro/>} />
       <Route path='/Listas' element={<Listas/>} />
       <Route path='/Comunicacao' element={<Comunicacao/>} />
+      <Route path='/requisicoes' element={<Requisicoes/>} />
+      <Route path='/requisicoesTypes' element={<RequisicoesTypes/>} />
+      <Route path='/requisicoesTypesAsync' element={<RequisicoesTypesAsync/>} />
     </Routes>
    )
  }
